@@ -1,0 +1,12 @@
+*.js
+
+/ .eslintignore
+build/*
+public/*
+src/swagger/*
+
+src/database/migrations/*
+node_modules
+dist
+coverage
+UPLOAD
