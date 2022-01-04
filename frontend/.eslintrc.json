@@ -8,11 +8,12 @@
   "extends": [
     "eslint:recommended",
     "airbnb-typescript/base",
+    "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "plugin:prettier/recommended",
     "react-app",
-    "react-app/jest"
+    "react-app/jest",
+    "plugin:prettier/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -21,7 +22,7 @@
     "project": "./tsconfig.json"
   },
   "plugins": [
-    "@typescript-eslint/eslint-plugin", "import", "prettier"],
+    "@typescript-eslint/eslint-plugin", "import", "prettier", "react-hooks"],
   "rules": {
     "@typescript-eslint/interface-name-prefix": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
@@ -42,7 +43,7 @@
       "warn",
       {
         "printWidth": 100,
-        "tabWidth": 2,
+        "tabWidth": 4,
         "bracketSpacing": true,
         "bracketSameLine": true,
         "semi": true,
