@@ -13,7 +13,7 @@
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "react-app",
     "react-app/jest",
-    "plugin:prettier/recommended"
+    "prettier"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -22,7 +22,7 @@
     "project": "./tsconfig.json"
   },
   "plugins": [
-    "@typescript-eslint/eslint-plugin", "import", "prettier", "react-hooks"],
+    "@typescript-eslint/eslint-plugin", "import", "prettier", "react-hooks", "react"],
   "rules": {
     "@typescript-eslint/interface-name-prefix": "off",
     "@typescript-eslint/explicit-function-return-type": "off",

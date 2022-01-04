@@ -1,10 +1,15 @@
 import React from "react";
 import Container from "@material-ui/core/Container";
+import Spinner from "./components/Spinner";
 
 const App = () => (
     <>
         <Container>
-            <p>hohho</p>
+            <Spinner height={55} width={55} />
+
+            <Spinner />
+
+            <p>hoho</p>
         </Container>
     </>
 );
