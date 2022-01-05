@@ -6,6 +6,7 @@ import Delayed from "./components/Delayed";
 
 import Paper from "@mui/material/Paper";
 import Container from "@mui/material/Container";
+import Tumbler from "./features/tumbler/Tumbler";
 
 const statusMock = "ждем";
 
@@ -27,6 +28,7 @@ const App = () => (
             <CurrentStatusWrapper />
 
             <Spinner />
+            <Tumbler />
 
             <Paper elevation={1}>
                 <h1>Form</h1>
