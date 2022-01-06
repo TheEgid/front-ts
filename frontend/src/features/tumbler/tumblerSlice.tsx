@@ -16,7 +16,6 @@ export const tumblerSlice = createSlice({
     initialState: initState,
     reducers: {
         changeRowQuantity: (state, action: PayloadAction<any>) => {
-            console.log(action.payload);
             state.rowsQty = action.payload as unknown as TRowsQty;
         },
     },

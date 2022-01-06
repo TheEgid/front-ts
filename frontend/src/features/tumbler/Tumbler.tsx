@@ -12,7 +12,8 @@ const Tumbler: FC = () => {
     const dispatch = useDispatch();
 
     const handleChangeGender = (e: React.ChangeEvent<HTMLInputElement>) => {
-        dispatch(changeRowQuantity(e.target.value));
+        e.preventDefault();
+        dispatch(changeRowQuantity(e.currentTarget.value));
     };
 
     return (
